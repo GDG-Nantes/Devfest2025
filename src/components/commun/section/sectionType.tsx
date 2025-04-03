@@ -78,6 +78,7 @@ type SectionType = React.FC<
     style?: CSSProperties;
     className?: string;
     mediaDisplay?: MediaDisplayType;
+    fullWidth?: boolean;
   }>
 >;
 
