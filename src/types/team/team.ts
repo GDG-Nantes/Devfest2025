@@ -86,7 +86,7 @@ export const teamMembers: TeamMember[] = [
   {
     firstName: 'Julien',
     lastName: 'Landuré',
-    title: 'Founder of TechTown & TechReady',
+    title: 'Founder & CTO at TechTown',
     socials: [
       { type: 'twitter', login: 'jlandure' },
       { type: 'linkedin', login: 'jlandure' },
