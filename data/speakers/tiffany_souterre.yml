@@ -1,10 +1,11 @@
 ---
 key: tiffany_souterre
 name: Tiffany Souterre
-company: Microsoft
-companyLogo: microsoft.png
 photoUrl: tiffany_souterre.jpg
+company: AWS
+companyLogo: /images/partners/aws.png
 socials:
   github: amagash
   twitter: tiffanysouterre
-bio: I love science and I love data! After finishing a PhD in genetic engineering, I continued my quest for discovering new patterns through data science and machine learning. I worked for 3 years as a Data/ML Engineer and I am currently DevRel at Microsoft. Someday, I wish to leverage artificial intelligence and genetics to improve people's lives.
+bio: |- 
+  I'm Tiffany, Senior Developer Advocate in AI/ML at AWS 💻. I previously worked as a Data/ML engineer and Developer Relations at Microsoft. I'm a recurring speaker in the Underscore talk-show. I love engaging with developers about technologies, innovations and help them use our tools. My main focus are Artificial Intelligence 🤖, Cloud technologies ☁️ and Python 🐍 but I also love astronomy 🚀, genetic engineering 🧬, sports 🥋, animals 🐕, travels 🛫, gaming 🎮 and sharing a good meal with friends 🍲
