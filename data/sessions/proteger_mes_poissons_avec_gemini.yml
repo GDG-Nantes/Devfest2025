@@ -1,7 +1,7 @@
 ---
 key: proteger_mes_poissons_avec_gemini
 openfeedbackId: protegermespoissonsavecgemini
-title: Protéger mes poissons avec Gemini
+title: Abracadabra ! Donnez vie à vos idées avec Google AI Studio.
 language: French
 talkType: conference
 tags:
@@ -12,5 +12,11 @@ speakers:
 slot: day-2-conference-5
 room: Jules Verne
 abstract: |-
-  Can an LLM help solve a real-world mystery? 
-  In this talk, I'll share my experiment using Gemini to investigate the deaths of my pond's fish. You'll learn how Gemini can analyze video for threats and automate responses, without any pre-training or complex set-up. In a couple of minutes and with a few lines of codes I'll show you how to analyze dozens of videos and get smart responses out of them.
+  Plus besoin de formule compliquée ni de baguette magique. La nouvelle incantation pour les créateurs est simple : Google AI Studio. En un claquement de doigts (ou presque !), l'IA générative est devenue un véritable atelier d'enchanteur pour donner vie à presque toutes vos idées.
+  
+  Nous commencerons par un bref aperçu des pouvoirs des modèles **Gemini**, nos "génies" modernes. Puis, en moins de 30 minutes, nous apprendrons ensemble quelques sortilèges pour :
+  &nbsp; Composer une bande-son et un podcast dignes d'une épopée fantastique.
+  &nbsp; Donner vie aux héros d'une bande dessinée inédite.
+  &nbsp; Forger une application qui assistera les jeunes écuyers avec leurs devoirs.
+
+  Pour conclure notre fable, nous verrons comment cette technologie peut se transformer en gardien bienveillant. À travers une histoire vraie, je vous montrerai comment Gemini m'aide à protéger les créatures aquatiques de mon bassin, prouvant que la plus belle des magies est celle qui sert le réel.
