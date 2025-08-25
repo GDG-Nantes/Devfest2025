@@ -1,8 +1,8 @@
 ---
 key: noelie_roux
 name: Noëlie Roux
-company: Jaji
-companyLogo: jaji.png
+company:
+companyLogo:
 photoUrl: noelie_roux.jpg
 socials:
   github: Noelierx
