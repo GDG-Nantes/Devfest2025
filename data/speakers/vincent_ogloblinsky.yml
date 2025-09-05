@@ -1,12 +1,12 @@
 ---
 key: vincent_ogloblinsky
 name: Vincent Ogloblinsky
-company: 'Orange '
+company: 'Orange Innovation'
 companyLogo: orange_.png
 photoUrl: vincent_ogloblinsky.jpg
 socials:
   github: vogloblinsky
-  twitter: vogloblinsky
+  bluesky: vogloblinsky
 bio: |-
   Architecte logiciel frontend chez Orange Innovation, je me spécialise dans l'architecture de projets web, la formation et l'animation technique.
 
