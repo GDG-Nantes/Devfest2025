@@ -1,12 +1,12 @@
 ---
 key: nico_martin
 name: Nico Martin
-company: Aity AG
-companyLogo: aity_ag.png
+company: Hugging Face
+companyLogo:
 photoUrl: nico_martin.jpg
 socials:
   github: nico-martin
   twitter: nic_o_martin
 bio: |-
-  Nico Martin is a self-taught web-developer and Google Developer Expert in Web Technologies and AI/ML from Switzerland.
-  Creative coding and testing the limits of the browser has always been his passion. And he shares this enthusiasm whenever possible in workshops, articles or talks.
+  Nico Martin is a Machine Learning Engineer with focus on WebML at 🤗 Hugging Face and Google Developer Expert in AI and Web Technologies from Switzerland.
+  He specializes in making AI accessible through web browsers, developing tools that simplify ML integration for developers. Nico actively shares his expertise through workshops, articles, and conference presentations, bridging the gap between web development and machine learning communities.
