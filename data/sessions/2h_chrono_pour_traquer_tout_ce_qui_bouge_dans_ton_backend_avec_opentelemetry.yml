@@ -23,7 +23,16 @@ abstract: |-
   🧭 Au programme :  
   &nbsp;⚙️ Mise en place d’un environnement local (ou cloud) avec une app Spring sans observabilité  
   &nbsp;🕵️ Instrumentation automatique avec l’agent Java **OpenTelemetry**  
-  &nbsp;📡 Export des données vers un stack OSS : **Signoz**  
+  &nbsp;📡 Export des données vers un stack OSS : **SigNoz**  
   &nbsp;🔍 Exploration des traces, erreurs et temps de réponse  
-  &nbsp;📊 Ajout de **custom spans** pour injecter de la donnée métier  
-  &nbsp;🎯 Analyse : où sont les goulets d’étranglement ? Que voit l’utilisateur final ? Qu’est-ce qui peut casser demain ?
+  &nbsp;📊 Ajout de **custom spans** et de **custom metrics** pour ajouter de la valeur métier  
+  &nbsp;🎯 Analyse : où sont les goulets d’étranglement ? 
+
+  💻 Pré-requis :  
+  - Session sur l'OS avec les droits administrateur  
+  - IDE comme IntelliJ ou Visual Studio Code  
+  - PowerShell 7 ou Bash  
+  - Docker  
+  - Git et un compte [GitHub](https://github.com/)  
+  - [mise](https://mise.jdx.dev/getting-started.html)  
+  - [Headlamp](https://headlamp.dev/)  
