@@ -1,9 +1,10 @@
 ---
 key: sebastien_fourreau
-name: Sébastien FOURREAU
+name: Sébastien Fourreau
 company: RCA
 companyLogo: rca.png
 photoUrl: sebastien_fourreau.jpg
+city: Nantes, France
 socials: {}
 bio: |-
   Lead SRE chez RCA, éditeur de logiciels pour les experts-comptables.

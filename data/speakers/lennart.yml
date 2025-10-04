@@ -2,7 +2,11 @@
 key: lennart
 name: Lennart Gundelach
 photoUrl: lennart.jpg
-socials: {}
+city: Hannover, Germany
+company: SII
+socials: {
+  linkedin: lennart-gundelach-b8b292125
+}
 bio: |-
   Dr Lennart Gundelach:
   Head of Data & AI at SII Group Germany:

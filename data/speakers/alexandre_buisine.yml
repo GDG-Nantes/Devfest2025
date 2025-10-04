@@ -2,7 +2,11 @@
 key: alexandre_buisine
 name: Alexandre Buisine
 photoUrl: alexandre_buisine.jpg
-socials: {}
+company: Enix
+city: Paris, France
+socials: {
+  linkedin: alexandre-buisine
+}
 bio: |-
   Alexandre est associé dirigeant chez Enix. Avec 20 ans d'expérience dans la technique et le management, il reste un grand passionné du monde open-source et plus particulièrement tout ce qui touche aux conteneurs.
   

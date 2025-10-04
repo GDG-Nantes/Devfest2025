@@ -1,10 +1,13 @@
 ---
 key: thanh_lan_doublier
-name: Thanh Lan DOUBLIER
+name: Thanh Lan Doublier
 company: Second brain
 companyLogo: second_brain.png
 photoUrl: thanh_lan_doublier.jpeg
-socials: {}
+city: Lille, France
+socials: {
+  linkedin: thanhlandoublier
+}
 bio: |-
   AI engineer à roulettes
 

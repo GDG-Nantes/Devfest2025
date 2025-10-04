@@ -1,11 +1,13 @@
 ---
 key: jonathan_baranzini
-name: Jonathan BARANZINI
+name: Jonathan Baranzini
 company: Talan
 companyLogo: talan.png
 photoUrl: jonathan_baranzini.jpg
+city: Paris, France
 socials:
   github: jotitan
+  linkedin: jonathan-baranzini
 bio: |-
   Développeur depuis 20 ans, j'accompagne les développeuses et développeurs au sein de l'entité "Digital Factory" chez Talan.
   Mon objectif est de les aider à monter en compétence et s'épanouir sur leurs projets.

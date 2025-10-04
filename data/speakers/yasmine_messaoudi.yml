@@ -1,8 +1,12 @@
 ---
 key: yasmine_messaoudi
 name: Yasmine Messaoudi
-company: Atipik SA
+company: Atipik
 companyLogo: atipik_sa.png
 photoUrl: yasmine_messaoudi.jpg
-socials: {}
-bio: L'inclusion et l'accessibilité sont des enjeux majeurs du futur du numérique ! Yasmine a une formation d'ingénieure couplée à un master en innovation et conception (design d'interactions), qu'elle met aujourd'hui à profit autour des problématiques utilisateurs et d'accessibilité dans le cadre de son travail de Product owner.
+city: Geneva, Switzerland
+socials: {
+  linkedin: yasmine-messaoudi
+}
+bio: |-
+  L'inclusion et l'accessibilité sont des enjeux majeurs du futur du numérique ! Yasmine a une formation d'ingénieure couplée à un master en innovation et conception (design d'interactions), qu'elle met aujourd'hui à profit autour des problématiques utilisateurs et d'accessibilité dans le cadre de son travail de Product owner.
