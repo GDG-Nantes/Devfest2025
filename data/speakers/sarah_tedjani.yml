@@ -1,5 +1,9 @@
 ---
 key: sarah_tedjani
 name: Sarah Tedjani
+company: Jolimoi
 photoUrl: sarah_tedjani.jpeg
-socials: {}
+city: France
+socials: {
+  linkedin: sarahtedjani
+}

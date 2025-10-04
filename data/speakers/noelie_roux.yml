@@ -1,12 +1,14 @@
 ---
 key: noelie_roux
 name: Noëlie Roux
-company:
+company: Jaji
 companyLogo:
 photoUrl: noelie_roux.jpg
+city: Paris, France
 socials:
   github: Noelierx
   twitter: noelie_roux
+  linkedin: noelie-roux
 bio: |-
   Noëlie est une experte en ingénierie et en accessibilité numérique, passionnée par la création d’expériences inclusives. Également intervenante, elle forme la nouvelle génération de développeurs et développeuses à intégrer l’accessibilité dès la conception de leurs projets.
 

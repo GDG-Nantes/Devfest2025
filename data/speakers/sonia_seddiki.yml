@@ -2,6 +2,10 @@
 key: sonia_seddiki
 name: Sonia Seddiki
 photoUrl: sonia_seddiki.jpg
+company: Arolla
+city: Paris, France
 socials:
   twitter: sonia_seddiki
-bio: Ingénieure navigant depuis 4 ans entre backend, ops et cloud. Globe-trotteuse compulsive, avec une passion secrète pour la cybersécurité et une (encore plus secrète) pour les dépôts Git bien rangés.
+  linkedin: soniaseddiki
+bio: |-
+  Ingénieure navigant depuis 4 ans entre backend, ops et cloud. Globe-trotteuse compulsive, avec une passion secrète pour la cybersécurité et une (encore plus secrète) pour les dépôts Git bien rangés.

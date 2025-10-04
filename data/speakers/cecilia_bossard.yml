@@ -2,7 +2,12 @@
 key: cecilia_bossard
 name: Cécilia Bossard
 photoUrl: cecilia_bossard.jpeg
-socials: {}
+company: Shodo
+companyLogo: shodo.png
+city: Nantes, France
+socials: {
+  linkedin: cécilia-bossard-14a5776
+}
 bio: |-
   Développeuse depuis près de 20 ans, je m'intéresse à beaucoup de sujets et aime partager avec les différentes communautés. 
 

@@ -1,7 +1,10 @@
 ---
 key: tim_carry
 name: Tim Carry
+company: Algolia
+companyLogo: algolia.png
 photoUrl: tim_carry.jpg
+city: Nantes, France
 socials:
   github: pixelastic
 bio: |-

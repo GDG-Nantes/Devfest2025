@@ -1,8 +1,13 @@
 ---
 key: benoit_martin
-name: Benoit MARTIN
+name: Benoit Martin
 photoUrl: benoit_martin.jpg
-socials: {}
+company: SFEIR
+companyLogo: sfeir.png
+city: Nantes, France
+socials: {
+  linkedin: benoît-martin-27b1582
+}
 bio: |-
   Fort de plus de 20 ans d'expérience en développement web, j'évolue aujourd'hui en tant que Lead Tech chez SFEIR.
 
