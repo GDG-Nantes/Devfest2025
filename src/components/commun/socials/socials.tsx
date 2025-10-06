@@ -67,7 +67,7 @@ export const SocialLink: React.FC<
     url = social.url;
   } else if (social.type === 'bluesky') {
     icon = <Image src={Bluesky} alt={'logo bluesky'} width={22} height={22} />;
-    url = `https://bsky.app/profile/${social.login}.bsky.social`;
+    url = `https://bsky.app/profile/${social.login}${social.login.includes('.') ? '' : '.bsky.social'}`;
   } else {
     url = '';
   }
