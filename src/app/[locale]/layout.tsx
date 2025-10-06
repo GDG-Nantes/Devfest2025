@@ -13,6 +13,8 @@ const URLSite = 'https://devfest2025.gdgnantes.com';
 export async function generateMetadata({
   params,
 }: CommonParams): Promise<Metadata> {
+  const resolved = await params;
+  const locale = resolved?.locale || i18nConfig.defaultLocale;
   const t = await getTranslation(params);
   return {
     title: 'Devfest Nantes',
@@ -52,7 +54,7 @@ export async function generateMetadata({
       title: 'Devfest Nantes',
       description: t('site.description'),
       siteName: 'Devfest Nantes',
-      locale: params?.locale === 'en' ? 'en_US' : 'fr_FR',
+      locale: locale === 'en' ? 'en_US' : 'fr_FR',
       images: [
         {
           url: '/opengraph-image.jpg',
