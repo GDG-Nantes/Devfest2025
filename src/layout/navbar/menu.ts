@@ -6,36 +6,36 @@ export const MENU: Array<MenuItem> = [
     link: '/',
   },
   {
-    label: "schedule",
-    link: "/schedule",
+    label: 'schedule',
+    link: '/schedule',
   },
   {
-    label: "speakers",
-    link: "/speakers",
+    label: 'speakers',
+    link: '/speakers',
   },
   {
     label: 'team',
     link: '/team',
   },
   {
-    label: "partners",
-    link: "/partners",
+    label: 'partners',
+    link: '/partners',
   },
   {
-    label: "blog",
-    link: "/blog",
-  },
-  // {
-  //   label: "menu",
-  //   link: "/menu",
-  // },
-  {
-    label: "jobs",
-    link: "https://jobboard.gdgnantes.com",
+    label: 'blog',
+    link: '/blog',
   },
   {
-    label: "Tickets",
-    link: "https://www.billetweb.fr/billet-devfest-nantes-2025",
+    label: 'menu',
+    link: '/menu',
+  },
+  {
+    label: 'jobs',
+    link: 'https://jobboard.gdgnantes.com',
+  },
+  {
+    label: 'Tickets',
+    link: 'https://www.billetweb.fr/billet-devfest-nantes-2025',
   },
   // {
   //   label: "📣 CFP",
