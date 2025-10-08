@@ -6,7 +6,7 @@ language: French
 talkType: conference
 tags:
   - cloud_devops
-complexity: Beginner
+complexity: Intermediate
 speakers:
   - julien_crestin
   - vincent_daligault
