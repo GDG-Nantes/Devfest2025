@@ -25,3 +25,10 @@ abstract: |-
   Malgré leur simplicité apparente, leur usage n’est pas toujours intuitif : quand les utiliser ? Quels problèmes permettent-ils de résoudre ?
 
   Ce workshop a pour but de clarifier l’intérêt de ces nouvelles APIs, notamment resource/rxResource, httpResource et LinkedSignal, à travers des cas concrets et des exemples pratiques.
+
+  Le workshop se basera sur la version 20 d'Angular.
+  
+  Prérequis :
+  - Avoir nvm (Node Version Manager) installé sur sa machine.
+  - Ou l'une des version de Node.js suivantes : ^20.19.0 || ^22.12.0 || ^24.0.0.
+  - S’assurer d’avoir la possibilité d’installer des paquets tiers depuis NPM (pas de restrictions liées aux VPN ou aux proxys que l’on rencontre généralement sur les machines d’entreprise).
