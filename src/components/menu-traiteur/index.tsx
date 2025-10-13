@@ -79,14 +79,12 @@ export const MenuTraiteur: React.FC<MenuTraiteurProps> = ({ locale }) => {
         >
           <Image
             alt='La Maison Hebel'
-            src='https://www.lecarredesdelices.com/wp-content/uploads/2017/12/Le-carré-des-délices-logo.png'
-            width={500}
+            src='/images/logo-lcdd.jpg'
+            width={368}
             height={250}
             style={{
-              width: '90%',
-              height: '250px',
-              maxWidth: '500px',
               objectFit: 'contain',
+              borderRadius: '20px',
             }}
           />
         </MyLink>
