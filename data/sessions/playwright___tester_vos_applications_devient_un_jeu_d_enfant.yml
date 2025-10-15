@@ -17,3 +17,9 @@ abstract: |-
   C'est ce que propose Playwright, un outil de tests end to end qui, en plus de très bonne performances, propose une excellent expérience développeur.
 
   Je vous propose au cours de ce hand's on de découvrir par la pratique cet outil et de voir comment il peut vous permettre d'écrire des tests simples, maintenables et résilients.
+
+  Prérequis:
+  - Avoir node d'installé sur sa machine
+  - Idéalement faire l'étape de mise en place [décrite ici](https://github.com/ptitFicus/devquest-consignes?tab=readme-ov-file#mise-en-place)
+  - Encore plus idéalement télécharger une version (java, docker ou binaire) de [l'application de test](https://github.com/ptitFicus/devquest)
+
