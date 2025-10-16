@@ -13,6 +13,8 @@ const URLSite = 'https://devfest2025.gdgnantes.com';
 export async function generateMetadata({
   params,
 }: CommonParams): Promise<Metadata> {
+  const resolved = await params;
+  const locale = resolved?.locale || i18nConfig.defaultLocale;
   const t = await getTranslation(params);
   return {
     title: 'Devfest Nantes',
@@ -31,8 +33,49 @@ export async function generateMetadata({
         fr: '/',
       },
     },
+    applicationName: 'Devfest Nantes 2025',
+    keywords: ['Devfest', 'GDG Nantes', 'Conference', 'Tech', 'Developers', 'Nantes'],
+    themeColor: '#111827',
+    robots: {
+      index: true,
+      follow: true,
+      nocache: false,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-video-preview': -1,
+        'max-snippet': -1,
+      },
+    },
+    openGraph: {
+      type: 'website',
+      url: URLSite,
+      title: 'Devfest Nantes',
+      description: t('site.description'),
+      siteName: 'Devfest Nantes',
+      locale: locale === 'en' ? 'en_US' : 'fr_FR',
+      images: [
+        {
+          url: '/opengraph-image.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Devfest Nantes',
+        },
+      ],
+    },
     twitter: {
       site: '@devfestnantes',
+      card: 'summary_large_image',
+      title: 'Devfest Nantes',
+      description: t('site.description'),
+      images: ['/twitter-image.jpg'],
+    },
+    viewport: {
+      width: 'device-width',
+      initialScale: 1,
+      viewportFit: 'cover',
+      themeColor: '#111827',
     },
   };
 }
@@ -48,15 +91,33 @@ const RootLayout: MyComponent = async ({ children, params }) => {
   return (
     <html lang={locale} className={htmlClass}>
       <body className={bodyClass}>
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `
+            .skip-link { position: absolute; left: -10000px; top: auto; background: #111827; color: #ffffff; padding: 8px 12px; z-index: 1000; }
+            .skip-link:focus { left: 8px; top: 8px; }
+          `,
+          }}
+        />
+        {/* Skip to content for accessibility */}
+        <a href="#main-content" className="skip-link">
+          Skip to content
+        </a>
         <script
           type='application/ld+json'
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <Analytics />
         <MuiProvider>
-          <Navbar params={params} />
-          <main>{children}</main>
-          <Footer params={params} />
+          <nav aria-label='Primary'>
+            <Navbar params={params} />
+          </nav>
+          <main id='main-content' role='main'>
+            {children}
+          </main>
+          <footer role='contentinfo'>
+            <Footer params={params} />
+          </footer>
         </MuiProvider>
       </body>
     </html>
